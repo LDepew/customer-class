@@ -15,3 +15,5 @@ class Customer {
         return `${this.id} | ${this.name} | ${this.stateCode} | ${this.sales}`;
     }
 }
+
+let cust1 = new Customer(1, "MAX", "OH", 0.0);
