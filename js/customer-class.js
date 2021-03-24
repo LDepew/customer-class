@@ -6,4 +6,8 @@ class Customer {
         this.stateCode = stateCode;
         this.sales = sales;
     }
+
+    addSales(sales) {
+        this.sales += sales;
+    }
 }
