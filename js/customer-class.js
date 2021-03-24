@@ -10,4 +10,8 @@ class Customer {
     addSales(sales) {
         this.sales += sales;
     }
+
+    print() {
+        return `${this.id} | ${this.name} | ${this.stateCode} | ${this.sales}`;
+    }
 }
