@@ -11,6 +11,10 @@ class Customer {
         this.sales += sales;
     }
 
+    deleteSales(sales) {
+        this.sales -= sales;
+    }
+
     print() {
         return `${this.id} | ${this.name} | ${this.stateCode} | ${this.sales}`;
     }
@@ -27,3 +31,4 @@ cust2.addSales(1000.00);
 cust2.addSales(3200.00);
 cust2.addSales(500.00);
 console.log(cust2.print());
+
