@@ -22,7 +22,7 @@ cust1.addSales(300.00);
 cust1.addSales(50.00);
 console.log(cust1.print());
 
-let cus2 = new Customer(2, "P&G", "OH", 100.00);
+let cust2 = new Customer(2, "P&G", "OH", 100.00);
 cust2.addSales(1000.00);
 cust2.addSales(3200.00);
 cust2.addSales(500.00);
