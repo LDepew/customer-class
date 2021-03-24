@@ -9,6 +9,7 @@ class Customer {
     
     subSales(sales) {
         this.sales -= sales;
+        //this.addSales(sales * -1);
     }
 
     addSales(sales) {
