@@ -6,14 +6,15 @@ class Customer {
         this.stateCode = stateCode;
         this.sales = sales;
     }
+    
+    subSales(sales) {
+        this.sales -= sales;
+    }
 
     addSales(sales) {
         this.sales += sales;
     }
 
-    deleteSales(sales) {
-        this.sales -= sales;
-    }
 
     print() {
         return `${this.id} | ${this.name} | ${this.stateCode} | ${this.sales}`;
