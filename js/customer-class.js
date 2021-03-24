@@ -17,3 +17,6 @@ class Customer {
 }
 
 let cust1 = new Customer(1, "MAX", "OH", 0.0);
+cust1.addSales(100.00);
+cust1.addSales(300.00);
+cust1.addSales(50.00);
